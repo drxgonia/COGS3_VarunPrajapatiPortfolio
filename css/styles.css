@@ -88,6 +88,12 @@ img {
     height: auto;
     display: block;
     margin-bottom: 3.5rem;
+    transition:transform 0.35s ease, filter 0.35s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
+    filter: brightness(1.15);
 }
 
 .MyPhoto{
